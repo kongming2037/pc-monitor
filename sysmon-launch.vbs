@@ -1,1 +1,2 @@
-U2V0IHdzID0gQ3JlYXRlT2JqZWN0KCJXc2NyaXB0LlNoZWxsIikgd3MuUnVuICJwb3dlcnNoZWxsLmV4ZSAtV2luZG93U3R5bGUgSGlkZGVuIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlICIiRDpcVG9vbHNcU3lzTW9uXHN5c21vbi5wczEiIiIsIDAsIEZhbHNlCg==
+Set ws = CreateObject("Wscript.Shell")
+ws.Run "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File ""D:\Tools\SysMon\sysmon.ps1""", 0, False
